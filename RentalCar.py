@@ -29,7 +29,7 @@ class CarRentalController:
 
     def __rentCar(self, carsToBook, price):
         if self.__totalCarAvailable() >= carsToBook:
-            print("We have completed your booking. Your total price will be $" + str(carsToBook * price) + "\r\n")
+            print("We have completed your booking. Your total price will be $$" + str(carsToBook * price) + "\r\n")
             
             i = 0
             while(i < carsToBook):
